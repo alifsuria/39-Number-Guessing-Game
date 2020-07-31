@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome/all.min.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="row h-100 align-items-center m-0">
+        <div class="col-6 mx-auto">
+            <h3 class="bg-dark text-light text-center p-1">Number Guessing Game</h3>
+            <p class="game-instruc">Try and guess a random number between 1 and 100.</p>
+            <p class="game-instruc">You have 10 attempts to guess the right number</p>
+
+            <div class="game-box bg-info pb-5 text-center">
+                <h1 class="text-center px-5 pt-4">Guess a Number</h1>
+                <h3 class="top-feedback bg-warning">Enter valid value and under 200</h3>
+                <form action="" class="my-4 px-5" id="form">
+                    <div class="form-group d-flex justify-content-center">
+                        <input type="text" id="input" class="form-control form-control-lg text-center w-50">
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-warning btn-lg">Submit guess</button>
+                    </div>
+                </form>
+
+                <h5>Previous Guess: <span class="prev-guess"></span></h5>
+                <h5>Guess Remaining: <span class="guess-remaining"></span></h5>
+                <h1 class="mt-4" id="feedback"></h1>
+                <button type="button" class="btn btn-block btn-danger start-game">Start New Game</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap-4.3.1-dist/jquery-3.3.1.js"></script>
+    <script src="bootstrap-4.3.1-dist/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

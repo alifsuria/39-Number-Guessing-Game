@@ -1,0 +1,34 @@
+body {
+  height: 100vh;
+}
+
+.game-instruc {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+input {
+  height: 100px !important;
+  font-size: 2rem !important;
+  line-height: 1.5rem !important;
+}
+
+button[type="submit"] {
+  border-radius: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#feedback{
+background: purple;
+color: white;
+}
+
+.start-game{
+font-size: 1.5rem;
+}
+
+.top-feedback{
+display: none;
+}
